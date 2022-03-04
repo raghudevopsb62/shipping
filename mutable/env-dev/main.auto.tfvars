@@ -1,0 +1,3 @@
+COMPONENT = "shipping"
+ENV       = "dev"
+
