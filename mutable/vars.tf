@@ -6,6 +6,6 @@ variable "COMPONENT" {}
 variable "ENV" {}
 variable "PORT" {}
 variable "TRIGGER" {
-  default = "no"
+  default = "yes"
 }
 variable "APP_VERSION" {}
