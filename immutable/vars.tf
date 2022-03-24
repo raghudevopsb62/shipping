@@ -9,3 +9,6 @@ variable "TRIGGER" {
   default = "yes"
 }
 variable "APP_VERSION" {}
+variable "ASG_DESIRED" {}
+variable "ASG_MIN" {}
+variable "ASG_MAX" {}
