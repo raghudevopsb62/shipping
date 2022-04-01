@@ -20,6 +20,11 @@ spec:
       containers:
       - name: shipping
         image: 739561048503.dkr.ecr.us-east-1.amazonaws.com/shipping:TAG
+        env:
+          - name: DB_HOST
+            value: mysql
+          - name: CART_ENDPOINT
+            value: cart
         ports:
         - containerPort: 8080
 ---
