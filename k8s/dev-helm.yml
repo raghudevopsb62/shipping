@@ -1,5 +1,8 @@
 componentName: shipping
 image:
   component: shipping
+health:
+  path: /health
+  port: 8080
 
 
