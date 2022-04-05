@@ -3,6 +3,6 @@ image:
   component: shipping
 health:
   path: /health
-  port: 8080
+  port: "8080"
 
 
