@@ -9,5 +9,11 @@ configMap:
   data:
     DB_HOST: "mysql"
     CART_ENDPOINT: "cart:80"
-
+resources:
+   limits:
+     cpu: 2000m
+     memory: 3600Mi
+   requests:
+     cpu: 3600Mi
+     memory: 3600Mi
 
