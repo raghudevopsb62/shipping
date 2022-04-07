@@ -11,10 +11,10 @@ configMap:
     CART_ENDPOINT: "cart:80"
 resources:
    limits:
-     cpu: 2000m
+     cpu: 1600m
      memory: 3600Mi
    requests:
-     cpu: 2000m
+     cpu: 1600m
      memory: 3600Mi
 
 autoscaling:
